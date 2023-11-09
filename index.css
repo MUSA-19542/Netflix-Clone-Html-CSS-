@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  color: white;
+  background-color: black;
+}
+.top-header,
+.body-section {
+  border-bottom: 5px solid #232323;
+}
+.top-header {
+  height: 80vh;
+  background-image: url(./Netfliximage/back.jpg);
+}
+.container {
+  /*border: 2px solid aqua;*/
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+}
+
+/* .language-picker {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+} */
+.language-picker {
+  padding: 10px 30px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  border: 0.5px solid whitesmoke;
+  border-radius: 5px;
+}
+/* .language {
+  position: absolute;
+  top: 0;
+  color: white;
+  font-size: 40px !important;
+} */
+
+.language,
+.drop_down {
+  position: absolute;
+  top: 5px;
+}
+.drop_down {
+  /* border: 2px solid red; */
+  right: -3px;
+  top: 6px;
+}
+.language {
+  left: 4px;
+}
+
+.dropdown-container {
+  /* border: 2px solid green; */
+  /* width: 250px; */
+  position: relative;
+}
+.navbar {
+  /* border: 2px solid blue; */
+  margin: 0 100px;
+  padding-top: 20px;
+  /* padding: 20px 100px; */
+  display: flex;
+  justify-content: space-between;
+}
+.right-half {
+  /* border: 2px solid aqua; */
+
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.btn {
+  background-color: #c11119;
+  padding: 9px 10px;
+  border: none;
+  border-radius: 4px;
+  font-family: sans-serif;
+  color: white;
+}
+
+/* Header content styles*/
+.content {
+  /* border: 2px solid aqua; */
+  /* margin: calc(80vh - 100px) auto; */
+  margin: 20vh auto;
+  width: 70%;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+.content p,
+.content h1 {
+  margin-top: 20px;
+}
+
+.content h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.content p1 {
+  margin-top: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+.content p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.email-container {
+  /* border: solid 2px purple; */
+  display: flex;
+  gap: 20px;
+  width: 60%;
+  margin-left: 140px;
+}
+
+.email-container > input {
+  flex-grow: 1;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 4px;
+  border: none;
+  border: 0.5px solid white;
+  padding: 0 10px;
+}
+.get-started-btn {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+.input {
+  text-align: left;
+  color: aqua;
+}
+/*<=========================================================================================Next section==================================================================================>*/
+.body-section {
+  /* border: 2px solid aqua; */
+  display: flex;
+  /* border-top: 8px solid #232323; */
+  /* padding: 0 100px; */
+
+  /* padding: 0 100px; */
+  /* padding: 20px 100px; */
+}
+.right-item {
+  /* border: 2px solid red; */
+  width: 600px;
+  right: 50px;
+  position: relative;
+  text-align: center;
+  display: block;
+  align-items: center;
+}
+.right-item > video,
+.right-item .vid2 > video {
+  position: absolute;
+  left: 150px;
+  top: 20%;
+  z-index: -1;
+}
+.tv {
+  width: 400px;
+}
+.vid {
+  width: 300px;
+}
+
+.left-item,
+.right-part {
+  /* border: 2px solid lawngreen; */
+  align-items: center;
+  margin-top: 100px;
+  text-align: left;
+  margin-left: 90px;
+
+  /* padding-left: 250px; */
+}
+.left-item h1,
+.right-part h1 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.left-item p1,
+.right-part p1 {
+  font-size: 20px;
+  width: 80px;
+  display: block;
+  /* border: 2px solid aqua; */
+  width: 450px;
+}
+
+/*section 2 */
+.layout {
+  /* border: 2px solid aqua; */
+  border: 2px solid #535251;
+  border-radius: 10px;
+  background-color: black;
+  position: absolute;
+  bottom: 30px;
+  left: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.layout p {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.layout p span1 {
+  color: blue;
+}
+.layout img {
+  width: 60px;
+}
+.static-left-item {
+  position: relative;
+
+  /* border: 2px solid red; */
+}
+.layout p span material-symbols-outline {
+  gap: 0px;
+}
+.tv2 {
+  margin-top: 40px;
+  width: 520px;
+  height: 400px;
+}
+
+.faq-container {
+  padding: 40px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.faq-container > h1 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.faq {
+  /* margin-left: 20px; */
+  display: flex;
+  border: none;
+  text-align: center;
+  align-items: center;
+  /* border: 2px solid aqua; */
+  background-color: #414141;
+  height: 40px;
+  justify-content: space-between;
+  align-self: stretch;
+  border-radius: 7px;
+}
+
+.faq:hover {
+  background-color: #574e4e;
+}
+.faq > p2,
+.faq span {
+  font-size: 15px !important;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.email-address .email-container {
+  /* border: 2px solid red; */
+  width: 800px;
+  left: -20px;
+}
