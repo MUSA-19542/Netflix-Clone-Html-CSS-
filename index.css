@@ -275,3 +275,65 @@ html {
   width: 800px;
   left: -20px;
 }
+
+/*Footer container*/
+.footer-container {
+  border-top: 6px solid #232323;
+
+  padding: 100px;
+  color: #5e5e5e;
+}
+.footer-container > p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding-left: 10%;
+}
+.links-container {
+  /* border: solid 2px aqua; */
+  justify-content: space-evenly;
+
+  display: flex;
+  gap: 20px;
+}
+.links-item {
+  /* border: 2px dotted purple; */
+  display: flex;
+  color: #5e5e5e;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.links-item > a {
+  font-size: 13px;
+  color: #5e5e5e;
+}
+.links-item > a:hover {
+  color: #00c200;
+}
+.links-item > a:visited {
+  color: #c11119;
+}
+.drop_up {
+  /* border: 2px solid gold; */
+  position: absolute;
+
+  /* flex-direction: column; */
+  top: 3px;
+  left: 55px;
+  color: white;
+  /* color: red; */
+}
+
+/*Netflix pakistan special*/
+.net-pak,
+.links-item .dropdown-container > span {
+  color: white;
+}
+.net-pak > p5 {
+  background-color: black; /* Netflix red */
+  color: #c11119;
+}
+.net-pak > p6 {
+  border-radius: 4px;
+  background-color: #00c200; /* Netflix red */
+}
